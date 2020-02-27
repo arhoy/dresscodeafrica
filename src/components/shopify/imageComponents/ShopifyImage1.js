@@ -5,6 +5,9 @@ import styled from '@emotion/styled';
 const ImageContainer = styled.div`
   object-fit: cover;
   max-width: 34rem;
+  @media (max-width: ${props => props.theme.screenSize.mobileL}) {
+    margin-top: 3rem;
+  }
 `;
 
 const Image = styled.img`
@@ -13,12 +16,22 @@ const Image = styled.img`
 `;
 
 export const ShopifyImage1 = ({ images, imageId }) => {
+  console.log('Image ', images);
   const [modal, setModal] = useState(false);
+
+  if (images.length === 0) {
+    return (
+      <ImageContainer>There is currently no image available</ImageContainer>
+    );
+  }
   return (
     <ImageContainer>
       {modal && (
         <Lightbox
-          mainSrc={images[imageId].localFile.childImageSharp.fluid.src}
+          mainSrc={
+            images[imageId] &&
+            images[imageId].localFile.childImageSharp.fluid.src
+          }
           onCloseRequest={e => setModal(false)}
         >
           Due
@@ -27,7 +40,9 @@ export const ShopifyImage1 = ({ images, imageId }) => {
 
       <Image
         onClick={e => setModal(true)}
-        src={images[imageId].localFile.childImageSharp.fluid.src}
+        src={
+          images[imageId] && images[imageId].localFile.childImageSharp.fluid.src
+        }
       />
     </ImageContainer>
   );

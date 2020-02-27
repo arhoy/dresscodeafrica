@@ -1,11 +1,13 @@
+/* eslint-disable */
+
 import React, { useState, useContext, useEffect, useCallback } from 'react';
 
 import styled from '@emotion/styled';
 import find from 'lodash/find';
 import isEqual from 'lodash/isEqual';
 import PropTypes from 'prop-types';
-import StoreContext from '../../../context/StoreContext';
 
+import StoreContext from '../../../context/StoreContext';
 import { ButtonStyle2 } from '../../reusableStyles/buttons/Button';
 import { ShopifyCartButton } from '../cart/ShopifyCartButton';
 import { ShopifyImage1 } from '../imageComponents/ShopifyImage1';
@@ -13,6 +15,7 @@ import { ProductDisplay } from './ProductDisplay';
 import { ProductOptions } from './ProductOptions';
 
 import { H2 } from '../../reusableStyles/typography/Typography';
+import noImage from '../../../../images/image_not_available.gif';
 
 const Container = styled.div`
   display: grid;
@@ -27,7 +30,7 @@ const Container = styled.div`
 const SubContainer1 = styled.div`
   grid-column: 1/2;
   padding: 2rem;
-
+  min-width: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -188,7 +191,7 @@ const ProductTemplate = ({ product }) => {
         <PriceContainer className="mobile">{price}</PriceContainer>
         <ShopifyImage1
           onClick={e => handleImageClick(imageId)}
-          images={images}
+          images={images || null}
           imageId={imageId}
         />
         <ShopifyImages>
@@ -196,7 +199,7 @@ const ProductTemplate = ({ product }) => {
             <img
               key={i}
               onClick={e => handleImageClick(i)}
-              src={image.originalSrc}
+              src={image.originalSrc || null}
               alt={``}
             />
           ))}

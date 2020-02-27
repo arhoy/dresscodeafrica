@@ -4,9 +4,10 @@ import styled from '@emotion/styled';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 
 import StoreContext from '../../../context/StoreContext';
+import noImage from '../../../../images/image_not_available.gif';
 
 const Grid = styled.div`
-  background: ${props => props.theme.colors.primaryLight};
+  background: ${props => props.theme.colors.white};
   min-height: 60vh;
   display: grid;
 
@@ -105,13 +106,18 @@ const ProductGrid = () => {
           }) => (
             <Product key={id}>
               <Link to={`/product/${handle}/`}>
-                {firstImage && firstImage.localFile && (
+                {firstImage && firstImage.localFile ? (
                   <Img
-                    src={firstImage.localFile.childImageSharp.fluid.src}
+                    src={
+                      firstImage.localFile.childImageSharp.fluid.src || noImage
+                    }
                     alt={handle}
                   />
+                ) : (
+                  <Img src={noImage} />
                 )}
               </Link>
+
               <Title>{title}</Title>
               <PriceTag>{getPrice(firstVariant.price)}</PriceTag>
             </Product>

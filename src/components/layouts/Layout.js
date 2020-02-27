@@ -20,7 +20,7 @@ import 'react-image-lightbox/style.css';
 const theme = {
   colors: {
     primary: '#C8C682',
-    primaryDark: '#B3B15F',
+    primaryDark: '#4C4C0A',
     primaryLight: '#F0EFD5',
     primaryVeryLight: 'rgb(253, 229, 179)',
     primaryTransparent: 'rgb(220,128,37,0.10)',

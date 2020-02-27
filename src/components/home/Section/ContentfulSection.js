@@ -14,7 +14,7 @@ import {
   StyledImage,
   CustomButton,
 } from '../HomeStyling';
-import { ButtonStyle2 } from '../../reusableStyles/buttons/Button';
+
 import NoStyleLink from '../../Links/NoStyleLink';
 
 import SliderContainer2 from '../../reusableStyles/slider/SliderContainer2';

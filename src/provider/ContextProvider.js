@@ -4,8 +4,8 @@ import Client from 'shopify-buy';
 import Context from '../context/StoreContext';
 
 const client = Client.buildClient({
-  storefrontAccessToken: `12756d1d13b33ee49952e93456e44aa3`,
-  domain: `dresscodeafrica.myshopify.com`,
+  storefrontAccessToken: `03b46ebb718f7b6c5585387f891bc781`,
+  domain: `dresscodeafrica1.myshopify.com`,
 });
 
 const ContextProvider = ({ children }) => {
