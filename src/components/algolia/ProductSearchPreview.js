@@ -8,12 +8,15 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   list-style: none;
   @media (max-width: ${props => props.theme.screenSize.mobileL}) {
     padding: 1rem 0;
     font-size: 1.5rem;
+    align-items: flex-start;
+    padding-left: 1rem;
   }
 `;
 

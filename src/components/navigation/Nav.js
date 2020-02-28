@@ -10,6 +10,8 @@ import { MobileMenu1 } from '../menus-mobile/Main/MobileMenu1';
 
 import NoStyleLink from '../Links/NoStyleLink';
 
+import Search from '../algolia/Search';
+
 const Header = styled.header`
   height: 80px;
   position: relative;
@@ -45,7 +47,7 @@ const LogoLink = styled(Link)`
   display: flex;
   flex-direction: column;
   color: ${props => props.theme.colors.black};
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   padding: 0;
   margin: 0;
 
@@ -82,6 +84,15 @@ const CustomLink = styled(NoStyleLink)`
   }
 `;
 
+const HeaderMid = styled.div`
+  grid-column: 1/-1;
+  margin: 0 auto;
+  width: 80%;
+  @media (max-width: ${props => props.theme.screenSize.mobileL}) {
+    width: 100%;
+  }
+`;
+
 const Nav = () => {
   const [mobileMenuOpen, setMobileMenu] = useState(false);
 
@@ -107,6 +118,10 @@ const Nav = () => {
           <MobileMenu1 mobileMenuHandler={mobileMenuHandler} />
         ) : null}
       </Header>
+
+      <HeaderMid>
+        <Search />
+      </HeaderMid>
     </>
   );
 };

@@ -52,7 +52,7 @@ const StyledHits = styled(Hits)`
     background: ${props => props.theme.colors.white};
     z-index: 4;
     position: absolute;
-    top: 20px;
+
     left: 0;
   }
   & li {

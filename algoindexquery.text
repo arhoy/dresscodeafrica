@@ -1,0 +1,11 @@
+
+{
+  allShopifyProduct {
+    nodes {
+      handle
+      title
+      description
+      tags
+    }
+  }
+}

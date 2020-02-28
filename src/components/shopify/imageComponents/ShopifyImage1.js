@@ -19,11 +19,11 @@ export const ShopifyImage1 = ({ images, imageId }) => {
   console.log('Image ', images);
   const [modal, setModal] = useState(false);
 
-  if (images.length === 0) {
-    return (
-      <ImageContainer>There is currently no image available</ImageContainer>
-    );
-  }
+  // if (images.length === 0) {
+  //   return (
+  //     <ImageContainer>There is currently no image available</ImageContainer>
+  //   );
+  // }
   return (
     <ImageContainer>
       {modal && (

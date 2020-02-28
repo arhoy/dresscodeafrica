@@ -24,6 +24,7 @@ import HomeReview from '../components/home/HomeReview';
 import Map1 from '../components/mapbox/Map1';
 import NoStyleLink from '../components/Links/NoStyleLink';
 import Home4 from '../components/home/Home4';
+import ProductNikeGrid from '../components/shopify/productGrid/ProductGridNike';
 
 const fadeInDown = keyframes`
 from {
@@ -204,6 +205,8 @@ const Home = ({ data }) => {
           <HomeReview />
         </Container1200>
       </SectionGrey>
+
+      <ProductNikeGrid />
 
       <Section>
         <Container1200>
