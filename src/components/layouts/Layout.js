@@ -25,7 +25,7 @@ const theme = {
     primaryVeryLight: 'rgb(253, 229, 179)',
     primaryTransparent: 'rgb(220,128,37,0.10)',
     secondary: 'rgb(24, 163, 201)',
-    lightgrey: '#E0E0E0',
+    lightgrey: '#F3F0F0',
     lightgrey2: 'rgb(224, 217, 217)',
     white: 'white',
     black: 'black',

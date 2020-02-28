@@ -16,7 +16,7 @@ import SliderContainer2 from '../components/reusableStyles/slider/SliderContaine
 import { H1 } from '../components/reusableStyles/typography/Typography';
 import { ButtonStyle2Large } from '../components/reusableStyles/buttons/Button';
 import Home1 from '../components/home/Home1';
-import Home2 from '../components/home/Home2';
+
 import Home3 from '../components/home/Home3';
 
 import HomeReview from '../components/home/HomeReview';
@@ -24,8 +24,8 @@ import HomeReview from '../components/home/HomeReview';
 import Map1 from '../components/mapbox/Map1';
 import NoStyleLink from '../components/Links/NoStyleLink';
 import Home4 from '../components/home/Home4';
-import ProductNikeGrid from '../components/shopify/productGrid/ProductGridNike';
-
+import ProductGridNike from '../components/shopify/productGrid/ProductGridNike';
+import ProductGridApple from '../components/shopify/productGrid/ProductGridApple';
 const fadeInDown = keyframes`
 from {
   opacity: 0;
@@ -187,12 +187,12 @@ const Home = ({ data }) => {
         </SliderContainer2>
       </Slider>
 
+      <ProductGridApple />
+
       <SectionGrey>
         <Home1 />
       </SectionGrey>
-      <Section>
-        <Home2 />
-      </Section>
+      <ProductGridNike />
       <SectionGrey>
         <Home3 />
       </SectionGrey>
@@ -205,8 +205,6 @@ const Home = ({ data }) => {
           <HomeReview />
         </Container1200>
       </SectionGrey>
-
-      <ProductNikeGrid />
 
       <Section>
         <Container1200>

@@ -12,11 +12,14 @@ import NoStyleLink from '../Links/NoStyleLink';
 
 import Search from '../algolia/Search';
 
+const Container = styled.div`
+  background: ${props => props.theme.colors.lightgrey};
+`;
+
 const Header = styled.header`
   height: 80px;
   position: relative;
 
-  background: ${props => props.theme.colors.white};
   color: ${props => props.theme.colors.black};
 
   display: flex;
@@ -47,7 +50,7 @@ const LogoLink = styled(Link)`
   display: flex;
   flex-direction: column;
   color: ${props => props.theme.colors.black};
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   padding: 0;
   margin: 0;
 
@@ -85,6 +88,7 @@ const CustomLink = styled(NoStyleLink)`
 `;
 
 const HeaderMid = styled.div`
+  padding: 3px 0;
   grid-column: 1/-1;
   margin: 0 auto;
   width: 80%;
@@ -101,7 +105,7 @@ const Nav = () => {
   };
 
   return (
-    <>
+    <Container>
       <Header>
         <Logo>
           <LogoLink to="/">Dress Code</LogoLink>
@@ -122,7 +126,7 @@ const Nav = () => {
       <HeaderMid>
         <Search />
       </HeaderMid>
-    </>
+    </Container>
   );
 };
 

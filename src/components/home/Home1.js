@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { graphql, useStaticQuery } from 'gatsby';
 
 import { ContentfulHomeSection } from './Section/ContentfulSection';

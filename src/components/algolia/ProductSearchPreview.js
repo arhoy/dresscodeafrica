@@ -23,11 +23,11 @@ const Container = styled.div`
 const CustomLink = styled(NoStyleLink)``;
 
 const ProductSearchPreview = ({ hit }) => {
-  if (hit) {
+  if (hit && hit.__position <= 9) {
     return (
       <Container>
-        <CustomLink to={`/products/${hit.productSlug}`}>
-          <h4>{hit.productName}</h4>
+        <CustomLink to={`/product/${hit.handle}`}>
+          <h4>{hit.title}</h4>
         </CustomLink>
       </Container>
     );

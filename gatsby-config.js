@@ -122,15 +122,11 @@ module.exports = {
         apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
+        hitsPerPage: 8,
         chunkSize: 10000,
       },
     },
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: process.env.MAILCHIMP_ENDPOINT,
-      },
-    },
+
     // {
     //   resolve: 'gatsby-plugin-crisp-chat',
     //   options: {

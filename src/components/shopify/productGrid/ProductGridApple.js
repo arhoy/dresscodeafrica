@@ -13,18 +13,19 @@ const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   padding: 4rem 2rem;
+  background: ${props => props.theme.colors.white};
 `;
 
 const CustomSlider = styled(Slider)``;
 
-const ProductNikeGrid = () => {
+const ProductNikeApple = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 1000,
     autoplaySpeed: 5000,
     fadeIn: false,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -53,7 +54,7 @@ const ProductNikeGrid = () => {
   const data = useStaticQuery(
     graphql`
       {
-        shopifyCollection(products: { elemMatch: { tags: { eq: "Nike" } } }) {
+        shopifyCollection(products: { elemMatch: { tags: { eq: "apple" } } }) {
           products {
             id
             title
@@ -81,7 +82,8 @@ const ProductNikeGrid = () => {
 
   return (
     <Container>
-      <H2Centered> Trending Nike Products</H2Centered>
+      <H2Centered> Latest In Apple</H2Centered>
+
       <CustomSlider {...settings}>
         {data.shopifyCollection.products.map(product => (
           <EachProductStyle1 product={product} checkout={checkout} />
@@ -91,4 +93,4 @@ const ProductNikeGrid = () => {
   );
 };
 
-export default ProductNikeGrid;
+export default ProductNikeApple;
