@@ -53,7 +53,7 @@ const ProductNikeGrid = () => {
   const data = useStaticQuery(
     graphql`
       {
-        shopifyCollection(products: { elemMatch: { tags: { eq: "Nike" } } }) {
+        shopifyCollection(products: { elemMatch: { tags: { eq: "nike" } } }) {
           products {
             id
             title
@@ -72,6 +72,7 @@ const ProductNikeGrid = () => {
             }
             variants {
               price
+              compareAtPrice
             }
           }
         }
@@ -84,7 +85,11 @@ const ProductNikeGrid = () => {
       <H2Centered> Trending Nike Products</H2Centered>
       <CustomSlider {...settings}>
         {data.shopifyCollection.products.map(product => (
-          <EachProductStyle1 product={product} checkout={checkout} />
+          <EachProductStyle1
+            key={product.id}
+            product={product}
+            checkout={checkout}
+          />
         ))}
       </CustomSlider>
     </Container>

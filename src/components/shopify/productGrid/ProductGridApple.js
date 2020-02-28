@@ -86,7 +86,11 @@ const ProductNikeApple = () => {
 
       <CustomSlider {...settings}>
         {data.shopifyCollection.products.map(product => (
-          <EachProductStyle1 product={product} checkout={checkout} />
+          <EachProductStyle1
+            key={product.id}
+            product={product}
+            checkout={checkout}
+          />
         ))}
       </CustomSlider>
     </Container>

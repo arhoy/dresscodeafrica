@@ -48,14 +48,14 @@ const ComparePriceTag = styled.span`
 `;
 
 const Img = styled.img`
-  max-width: 30rem;
-  max-height: 40rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
 `;
 
 const CustomLink = styled(NoStyleLink)``;
 
-const EachProductStyle1 = ({ product, checkout }) => {
+const EachProductStyle2 = ({ product, checkout }) => {
   return (
     <Container key={product.id}>
       <CustomLink to={`/product/${product.handle}/`}>
@@ -85,4 +85,4 @@ const EachProductStyle1 = ({ product, checkout }) => {
   );
 };
 
-export default EachProductStyle1;
+export default EachProductStyle2;
