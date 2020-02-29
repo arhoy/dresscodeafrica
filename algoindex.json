@@ -1,27 +1,21 @@
 [
   {
-    "handle": "jack-and-jones-pull-vert",
-    "title": "Jack and Jones | Pull Vert",
-    "description": "Title : pull vert PRODUCT DESCRIPTION The class of the turtleneck with an urban touch. The heavy knit piece sports this classic collar, but a trendy and colourful speckled design for added punch. Regular fit 100% Cotton Imported Machine wash, do not tumble dry Style No. - 12164344 JPRAIDEN KNIT ROLL NECK prix : 22 000 CFA prix comparÃ© : 25 000 CFA",
-    "tags": ["clothing", "jack and jones", "new-arrival"]
+    "handle": "nike-legging",
+    "title": "Nike Legging",
+    "description": "Title: legging running Description: First layer garment ideal for high intensity training and competition, the tight Nike Pro Intertwist offers the sweat-wicking performance of Dri-FIT technology in a close-fitting silhouette. Its elastic crossover size displays a stylish look. price: 30,000 CFA price: 33,000 CFA",
+    "tags": ["legging", "nike", "womens-fashion"]
   },
   {
     "handle": "night-perfume-for-men",
     "title": "Night Perfume for Men",
     "description": "Title: NIGHT FOR MEN III 100 MLDETAIL Description: ZARA NIGHT FOR MEN // III EDP 100 ml (3.4 FL. OZ). Oriental perfume. Its olfactory pyramid contains notes of cardamom, iris and amber. It is an elegant, nocturnal and pleasant fragrance. price: 11,483.97 CFA Franc compared price: 13,000 CFA",
-    "tags": ["Fragrance", "perfume", "Zara"]
+    "tags": ["Fragrance", "new-arrivals", "perfume", "zara"]
   },
   {
-    "handle": "premium-lenovo-thinkpad-t450s-14-inch-business-laptop-intel-core-i5-5200u-up-to-2-7ghz-8gb-ddr3-ram-512gb-ssd-usb-vga-windows-10-pro-renewed",
-    "title": "Premium Lenovo Thinkpad T450S 14 Inch Business Laptop (Intel Core i5-5200U up to 2.7GHz, 8GB DDR3 RAM, 512GB SSD, USB, VGA, Windows 10 Pro) (Renewed)",
-    "description": "Intel Core i5-5200U 2.2GHz (Turbo up to 2.6GHz) 3MB Cache, Intel HD Graphics 5500, No DVD Drive 14\" HD+ Anti-Glare LED-backlit (1600x900), 802.11b/g/n RAM is upgraded to 8GB memory for multitasking Adequate high-bandwidth RAM to smoothly run multiple applications and browser tabs all at once; Hard Drive is upgraded to 512GB SSD provides massive storage space for huge files, so that you can store important digital data and work your way through it with ease. It gives you enormous space to save all of your files. Enhance the overall performance of the laptop for business, student, daily usage. 3 x USB 3.0, 1 x VGA, 1 x Mini DisplayPort, 1 x RJ-45, Windows 10 Professional 64-bit Windows 10 Professional brings back the Start Menu from Windows 7 and introduces new features, like the Edge Web browser that lets you markup Web pages on your screen. Technical Details Display Size 14 inches Display Resolution 1600 x 900 Max Screen Resolution 1600 x 900 Processor 2.20 GHz Intel Core i5 RAM 8 GB DDR3 Hard Drive 512 GB SSD Graphics Coprocessor Intel HD Graphics 5500 Chipset Brand Intel Card Description integrated Wireless Standard 802.11b/g, 802.11bgn, 802.11b Brand Name Lenovo Series Lenovo Item model number Lenovo Hardware Platform PC Operating System Windows 10 Pro Item Weight 1.72 Kg Item dimensions L x W x H 33.1 x 22.6 x 2.3 cm Processor Brand Intel Processor Count 2 Memory Type DDR3 SDRAM Flash Memory Size 512 GB Hard Disk Interface Serial ATA",
-    "tags": ["Amazon"]
-  },
-  {
-    "handle": "nike-cortez",
-    "title": "Nike Cortez",
-    "description": "Title: nike cortez Description: The Nike Cortez Basic TXT VDAY celebrates love with a slightly shiny design and pastel pink details. The light foam absorbs each step for everyday comfort. Color displayed: Washed coral / Black / White / Washed coral. price: 37,000 CFA compared price: 40,000 CFA",
-    "tags": ["Long Sleave", "Nike"]
+    "handle": "jack-and-jones-pull-vert",
+    "title": "Jack and Jones | Pull Vert",
+    "description": "Title : pull vert PRODUCT DESCRIPTION The class of the turtleneck with an urban touch. The heavy knit piece sports this classic collar, but a trendy and colourful speckled design for added punch. Regular fit 100% Cotton Imported Machine wash, do not tumble dry Style No. - 12164344 JPRAIDEN KNIT ROLL NECK prix : 22 000 CFA prix comparÃ© : 25 000 CFA",
+    "tags": ["clothing", "jack-and-jones", "new-arrival"]
   },
   {
     "handle": "macbook-air-13-inch",
@@ -30,28 +24,22 @@
     "tags": ["apple", "laptop"]
   },
   {
+    "handle": "nike-cortez",
+    "title": "Nike Cortez",
+    "description": "Title: nike cortez Description: The Nike Cortez Basic TXT VDAY celebrates love with a slightly shiny design and pastel pink details. The light foam absorbs each step for everyday comfort. Color displayed: Washed coral / Black / White / Washed coral. price: 37,000 CFA compared price: 40,000 CFA",
+    "tags": ["Long Sleave", "nike"]
+  },
+  {
+    "handle": "premium-lenovo-thinkpad-t450s-14-inch-business-laptop-intel-core-i5-5200u-up-to-2-7ghz-8gb-ddr3-ram-512gb-ssd-usb-vga-windows-10-pro-renewed",
+    "title": "Premium Lenovo Thinkpad T450S 14 Inch Business Laptop (Intel Core i5-5200U up to 2.7GHz, 8GB DDR3 RAM, 512GB SSD, USB, VGA, Windows 10 Pro) (Renewed)",
+    "description": "Intel Core i5-5200U 2.2GHz (Turbo up to 2.6GHz) 3MB Cache, Intel HD Graphics 5500, No DVD Drive 14\" HD+ Anti-Glare LED-backlit (1600x900), 802.11b/g/n RAM is upgraded to 8GB memory for multitasking Adequate high-bandwidth RAM to smoothly run multiple applications and browser tabs all at once; Hard Drive is upgraded to 512GB SSD provides massive storage space for huge files, so that you can store important digital data and work your way through it with ease. It gives you enormous space to save all of your files. Enhance the overall performance of the laptop for business, student, daily usage. 3 x USB 3.0, 1 x VGA, 1 x Mini DisplayPort, 1 x RJ-45, Windows 10 Professional 64-bit Windows 10 Professional brings back the Start Menu from Windows 7 and introduces new features, like the Edge Web browser that lets you markup Web pages on your screen. Technical Details Display Size 14 inches Display Resolution 1600 x 900 Max Screen Resolution 1600 x 900 Processor 2.20 GHz Intel Core i5 RAM 8 GB DDR3 Hard Drive 512 GB SSD Graphics Coprocessor Intel HD Graphics 5500 Chipset Brand Intel Card Description integrated Wireless Standard 802.11b/g, 802.11bgn, 802.11b Brand Name Lenovo Series Lenovo Item model number Lenovo Hardware Platform PC Operating System Windows 10 Pro Item Weight 1.72 Kg Item dimensions L x W x H 33.1 x 22.6 x 2.3 cm Processor Brand Intel Processor Count 2 Memory Type DDR3 SDRAM Flash Memory Size 512 GB Hard Disk Interface Serial ATA",
+    "tags": ["Amazon"]
+  },
+  {
     "handle": "nike-manches",
     "title": "Nike Manches",
     "description": "Title: nike long sleeve for women The jersey fabric ensures maximum softness and freshness. Dri-FIT technology helps you stay dry and benefit from maximum comfort. Stylish stripes The subtle Ottoman stripes give you a style that attracts attention. Adjustable cut The half-zip closure ensures easy donning and doffing. The chin guard provides a feeling of softness under the chin. More advantages This product offers UVA and UVB protection against the sun in the areas covered by the garment. To benefit from full UPF 40+ protection, all closures must be used. Exposed areas will not be protected by this garment. To protect these areas, the use of a good quality sunscreen is recommended. Product details Standard cut for relaxed attire 84% polyester / 16% elastane price: 40,000 CFA compared price: 43,000 CFA",
-    "tags": ["Long Sleave", "Nike"]
-  },
-  {
-    "handle": "zara-suits",
-    "title": "Zara Suits",
-    "description": "Best Selling Zara Suits Jacket with pointed lapel collar with removable pin and long sleeves with buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket. Double back vent. Front button closure. Look Stylish!",
-    "tags": ["suits", "Zara"]
-  },
-  {
-    "handle": "nike-brassiere",
-    "title": "Nike Brassiere",
-    "description": "Title: Brasssiere The Nike Air Indy sports bra offers good support during low-impact activities such as walking, yoga, the bar or Pilates. It is made with at least 75% recycled fibers. Color Shown: Medium Olive / Black price: 20,000 CFA compared price: 23,000 CFA",
-    "tags": ["Brassiere", "Nike"]
-  },
-  {
-    "handle": "nike-legging",
-    "title": "Nike Legging",
-    "description": "Title: legging running Description: First layer garment ideal for high intensity training and competition, the tight Nike Pro Intertwist offers the sweat-wicking performance of Dri-FIT technology in a close-fitting silhouette. Its elastic crossover size displays a stylish look. price: 30,000 CFA price: 33,000 CFA",
-    "tags": ["legging", "Nike"]
+    "tags": ["Long Sleave", "nike", "womens-fashion"]
   },
   {
     "handle": "jack-and-jones-scarf",
@@ -60,16 +48,32 @@
     "tags": ["jack-and-jones"]
   },
   {
-    "handle": "zara-shoes-brown-leather-deck-shoes",
-    "title": "Zara Brown Leather Deck Shoes",
-    "description": "Brown Leather Deck Shoes Choose Your Size",
-    "tags": ["shoes", "Zara"]
+    "handle": "zara-suits",
+    "title": "Zara Suits",
+    "description": "Best Selling Zara Suits Jacket with pointed lapel collar with removable pin and long sleeves with buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket. Double back vent. Front button closure. Look Stylish!",
+    "tags": ["new-arrivals", "suits", "zara"]
   },
   {
-    "handle": "banana-republic-slim-fit-tee",
-    "title": "Banana Republic Slim Fit Tee",
-    "description": "description: Slim fit: overall slim fit. A little more space on the shoulders and waist than our Grant Fit. Long sleeves. Hip blows. Mid back length (size M): Regular 29.5 \", Large 31\" Sleeve length: Regular 35 \", Tall 36.5\" Model: Size M, 6'2 \"(188cm). price: 30,000 fcfa",
-    "tags": ["new-arrival", "shoes"]
+    "handle": "nike-brassiere",
+    "title": "Nike Brassiere",
+    "description": "Title: Brasssiere The Nike Air Indy sports bra offers good support during low-impact activities such as walking, yoga, the bar or Pilates. It is made with at least 75% recycled fibers. Color Shown: Medium Olive / Black price: 20,000 CFA compared price: 23,000 CFA",
+    "tags": ["Brassiere", "nike"]
+  },
+  {
+    "handle": "plaid-two-piece-set",
+    "title": "Plaid Two Piece Set",
+    "description": "PLAID PRINT CROPPED CRISSCROSS BACK SLEEVELESS HIGH WAIST MINI LENGTH SLITS ZIPPER CLOSURE This plaid print two piece set features a cropped top and a skirt. The crop top is sleeveless and features a crisscross back with a zipper closure. The skirt is mini length and high waist with slits and a zipper closure. FABRIC: STRETCH POPLIN SUCKERCONTENT: 97% COTTON, 3% SPANDEXGARMENT CARE: MUST BE WASHED WITH WATER AT ROOM TEMPERATURE AND IRONED WITH NO STEAM AT LOW TEMPERATURE.",
+    "tags": [
+      "$100 - $150",
+      "apparel",
+      "black/white",
+      "casual",
+      "dresses",
+      "modalyst",
+      "women",
+      "women-fashion",
+      "womens-fashion"
+    ]
   },
   {
     "handle": "macbook-pro",
@@ -84,21 +88,6 @@
     "tags": ["jack-and-jones"]
   },
   {
-    "handle": "plaid-two-piece-set",
-    "title": "Plaid Two Piece Set",
-    "description": "PLAID PRINT CROPPED CRISSCROSS BACK SLEEVELESS HIGH WAIST MINI LENGTH SLITS ZIPPER CLOSURE This plaid print two piece set features a cropped top and a skirt. The crop top is sleeveless and features a crisscross back with a zipper closure. The skirt is mini length and high waist with slits and a zipper closure. FABRIC: STRETCH POPLIN SUCKERCONTENT: 97% COTTON, 3% SPANDEXGARMENT CARE: MUST BE WASHED WITH WATER AT ROOM TEMPERATURE AND IRONED WITH NO STEAM AT LOW TEMPERATURE.",
-    "tags": [
-      "$100 - $150",
-      "apparel",
-      "black/white",
-      "casual",
-      "dresses",
-      "modalyst",
-      "women",
-      "women-fashion"
-    ]
-  },
-  {
     "handle": "bianca-pleated-mini-dress",
     "title": "Bianca Pleated Mini Dress",
     "description": "Pleated mini dress with tassel strings and crochet detail hem. Breathable and light weight fabric perfect for warm-weather months or vacation. You can also wear it as a tunic! Logan is 5'10 and wearing a size Small Hand-wash cold, lay flat to dry 100% Cotton Made in India",
@@ -110,20 +99,33 @@
       "modalyst",
       "new-arrival",
       "women",
-      "women-fashion"
+      "women-fashion",
+      "womens-fashion"
     ]
+  },
+  {
+    "handle": "banana-republic-slim-fit-tee",
+    "title": "Banana Republic Slim Fit Tee",
+    "description": "description: Slim fit: overall slim fit. A little more space on the shoulders and waist than our Grant Fit. Long sleeves. Hip blows. Mid back length (size M): Regular 29.5 \", Large 31\" Sleeve length: Regular 35 \", Tall 36.5\" Model: Size M, 6'2 \"(188cm). price: 30,000 fcfa",
+    "tags": ["new-arrivals", "shoes"]
+  },
+  {
+    "handle": "smart-watch-grde-fitness-tracker-watch-bluetooth-5-0-activity-tracker-full-touch-screen-smartwatch-5atm-waterproof-for-man-woman-with-heart-rate-sleep-monitor-step-calorie-counter-sms-call-notification-compatible-with-iphone-sumsung-black",
+    "title": "Smart Watch Fitness Tracker",
+    "description": "[ Physical Health Tracking ] GRDE smart watche is designed to monitor and understand your physical health, which can monitor your heart rate, count steps, track calories, monitor sleep and more. Not only that, when you sit for a long time without getting up, the smart fitness tracker will vibrate to remind you to relax. It keeps an eye on your health and reminds you so you can improve your habits and have a healthy body. (Note: The data are only for reference and not for medical use.) [ Long-life Battery & Large Screen ] With a built-in low-power Bluetooth chip and a 210 mAh high-capacity battery, the GRDE smart watch can be used for up to 10 days and 45 days of standby time in just 2 hours of charging. The 1.3-inch HD color screen features a full touch screen and button operation for giving you a better and more convenient experience. [ 14 sports modes & 5ATM Waterproof ] The fitness tracker watch has 14 sport modes, such as running, cycling, swimming, hiking and yoga etc. Connect the watch to your phone via the VeryFitPro APP, and GPS tracking will accurately calculates your steps, distance and route. 5ATM waterproof rating allows you to swim freely and monitor your movements within 50 meters of water depth. [ Women's Health Care & Breathing Training ] In addition to regular exercise and fitness tracking, there is also a monitoring physiological period function designed specifically for women. Record the physiological cycle via APP can predict the ovulation cycle, and remind you of the physiological period to help you improve your healthier lifestyle. The breathing function also allow you to train your lung capacity and exercise your lungs. [ Messages & Calls Reminder ] When the smartwatch connects to your phone via an APP, it will vibrate to alert you to phone calls, text messages, emails or instant messages (Facebook, Twitter, WhatsApp etc). The fitness tracker won't answer the phone, but it can refuse. It will keep you from missing anything important. Technical Details Brand Name GRDE Power Source battery-powered Are Batteries Included Yes Batteries Required No Battery Cell Composition Lithium Ion Material Type metal, plastic",
+    "tags": []
+  },
+  {
+    "handle": "zara-shoes-brown-leather-deck-shoes",
+    "title": "Zara Brown Leather Deck Shoes",
+    "description": "Brown Leather Deck Shoes Choose Your Size",
+    "tags": ["shoes", "zara"]
   },
   {
     "handle": "nike-body-suit",
     "title": "Nike Body Suit",
     "description": "Title: bodysuit with sleeves Description: Layered or worn alone, the Nike Sportswear body gives you a feeling of softness day and night. Benefits Soft and resistant mesh fabric. Snap-openings at the crotch make it easy to put on and take off. Front zip for better air circulation. Python print for a wild style. Product details Slim fit that follows the shape of the body 83% polyester / 17% elastane Machine washable © importa Color displayed: Speed ​​yellow / Black. price: 25,000 CFA compared price: 27,000 CFA",
-    "tags": ["Body Suit", "Nike"]
-  },
-  {
-    "handle": "smart-watch-grde-fitness-tracker-watch-bluetooth-5-0-activity-tracker-full-touch-screen-smartwatch-5atm-waterproof-for-man-woman-with-heart-rate-sleep-monitor-step-calorie-counter-sms-call-notification-compatible-with-iphone-sumsung-black",
-    "title": "Smart Watch, GRDE Fitness Tracker Watch, Bluetooth 5.0 Activity Tracker Full Touch Screen Smartwatch 5ATM Waterproof for Man / Woman with Heart Rate, Sleep Monitor, Step & Calorie Counter, SMS Call Notification Compatible with iPhone Sumsung - Black",
-    "description": "[ Physical Health Tracking ] GRDE smart watche is designed to monitor and understand your physical health, which can monitor your heart rate, count steps, track calories, monitor sleep and more. Not only that, when you sit for a long time without getting up, the smart fitness tracker will vibrate to remind you to relax. It keeps an eye on your health and reminds you so you can improve your habits and have a healthy body. (Note: The data are only for reference and not for medical use.) [ Long-life Battery & Large Screen ] With a built-in low-power Bluetooth chip and a 210 mAh high-capacity battery, the GRDE smart watch can be used for up to 10 days and 45 days of standby time in just 2 hours of charging. The 1.3-inch HD color screen features a full touch screen and button operation for giving you a better and more convenient experience. [ 14 sports modes & 5ATM Waterproof ] The fitness tracker watch has 14 sport modes, such as running, cycling, swimming, hiking and yoga etc. Connect the watch to your phone via the VeryFitPro APP, and GPS tracking will accurately calculates your steps, distance and route. 5ATM waterproof rating allows you to swim freely and monitor your movements within 50 meters of water depth. [ Women's Health Care & Breathing Training ] In addition to regular exercise and fitness tracking, there is also a monitoring physiological period function designed specifically for women. Record the physiological cycle via APP can predict the ovulation cycle, and remind you of the physiological period to help you improve your healthier lifestyle. The breathing function also allow you to train your lung capacity and exercise your lungs. [ Messages & Calls Reminder ] When the smartwatch connects to your phone via an APP, it will vibrate to alert you to phone calls, text messages, emails or instant messages (Facebook, Twitter, WhatsApp etc). The fitness tracker won't answer the phone, but it can refuse. It will keep you from missing anything important. Technical Details Brand Name GRDE Power Source battery-powered Are Batteries Included Yes Batteries Required No Battery Cell Composition Lithium Ion Material Type metal, plastic",
-    "tags": []
+    "tags": ["Body Suit", "new-arrivals", "nike", "womens-fashion"]
   },
   {
     "handle": "apple-iphone-11",
@@ -132,28 +134,10 @@
     "tags": ["apple", "iphone"]
   },
   {
-    "handle": "apple-iphone-11-pro",
-    "title": "Apple iPhone 11 Pro",
-    "description": "This is the Apple iPhone 11 Pro Choose your color and capacity",
-    "tags": ["apple", "iphone"]
-  },
-  {
-    "handle": "nike-air-max",
-    "title": "Nike Air Max",
-    "description": "These are the Nike Air Max Shoes Pick your Size and Color.",
-    "tags": ["shoes"]
-  },
-  {
     "handle": "air-jordan",
     "title": "Air Jordan",
     "description": "These are the Air Jordan Shoes. Pick your Size and Color.",
-    "tags": ["new-arrival", "shoes"]
-  },
-  {
-    "handle": "apple-iphone-x",
-    "title": "Apple iPhone X",
-    "description": "This is the Apple iPhone X Choose your color and capacity",
-    "tags": ["apple", "iphone"]
+    "tags": ["new-arrivals", "shoes"]
   },
   {
     "handle": "white-green-checkers-dress",
@@ -166,8 +150,27 @@
       "dresses",
       "modalyst",
       "women",
-      "women-fashion"
+      "women-fashion",
+      "womens-fashion"
     ]
+  },
+  {
+    "handle": "nike-air-max",
+    "title": "Nike Air Max",
+    "description": "These are the Nike Air Max Shoes Pick your Size and Color.",
+    "tags": ["nike", "shoes"]
+  },
+  {
+    "handle": "apple-iphone-11-pro",
+    "title": "Apple iPhone 11 Pro",
+    "description": "This is the Apple iPhone 11 Pro Choose your color and capacity",
+    "tags": ["apple", "iphone"]
+  },
+  {
+    "handle": "apple-iphone-x",
+    "title": "Apple iPhone X",
+    "description": "This is the Apple iPhone X Choose your color and capacity",
+    "tags": ["apple", "iphone"]
   },
   {
     "handle": "bling-body",
@@ -182,7 +185,8 @@
       "shirts",
       "white",
       "women",
-      "women-fashion"
+      "women-fashion",
+      "womens-fashion"
     ]
   }
 ]

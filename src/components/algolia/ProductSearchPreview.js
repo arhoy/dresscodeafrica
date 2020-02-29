@@ -23,7 +23,8 @@ const Container = styled.div`
 const CustomLink = styled(NoStyleLink)``;
 
 const ProductSearchPreview = ({ hit }) => {
-  if (hit && hit.__position <= 9) {
+  console.log('hit is ', hit);
+  if (hit && hit.__position < 9) {
     return (
       <Container>
         <CustomLink to={`/product/${hit.handle}`}>

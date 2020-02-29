@@ -14,6 +14,7 @@ import Search from '../algolia/Search';
 
 const Container = styled.div`
   background: ${props => props.theme.colors.lightgrey};
+  padding-bottom: 2rem;
 `;
 
 const Header = styled.header`

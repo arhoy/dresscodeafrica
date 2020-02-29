@@ -9,6 +9,8 @@ import {
   Section,
   SectionGrey,
   Container1200,
+  SectionHexaGrey,
+  SectionParallelGrey,
 } from '../components/reusableStyles/sections/Sections';
 
 import Slider from 'react-slick';
@@ -26,6 +28,7 @@ import NoStyleLink from '../components/Links/NoStyleLink';
 import Home4 from '../components/home/Home4';
 import ProductGridNike from '../components/shopify/productGrid/ProductGridNike';
 import ProductGridApple from '../components/shopify/productGrid/ProductGridApple';
+import ProductGridZara from '../components/shopify/productGrid/ProductGridZara';
 const fadeInDown = keyframes`
 from {
   opacity: 0;
@@ -196,17 +199,20 @@ const Home = ({ data }) => {
       <SectionGrey>
         <Home3 />
       </SectionGrey>
-      <Section>
-        <Home4 />
-      </Section>
 
-      <SectionGrey>
+      <ProductGridZara />
+
+      <SectionHexaGrey>
+        <Home4 />
+      </SectionHexaGrey>
+
+      <Section>
         <Container1200>
           <HomeReview />
         </Container1200>
-      </SectionGrey>
+      </Section>
 
-      <Section>
+      <SectionParallelGrey>
         <Container1200>
           <Map1
             title={`Our Locations`}
@@ -215,7 +221,7 @@ const Home = ({ data }) => {
             height="50vh"
           />
         </Container1200>
-      </Section>
+      </SectionParallelGrey>
     </Layout>
   );
 };

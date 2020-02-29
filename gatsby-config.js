@@ -122,7 +122,6 @@ module.exports = {
         apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
-        hitsPerPage: 8,
         chunkSize: 10000,
       },
     },

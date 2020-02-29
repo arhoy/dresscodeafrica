@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 
 const Container = styled.div`
+  padding: 0.5rem 1rem;
   @media (min-width: ${props => props.theme.screenSize.mobileL}) {
     display: none;
   }

@@ -20,6 +20,17 @@ const SectionNav = styled.div`
   background: ${props => props.theme.colors.primaryLight};
   padding: 2rem;
   min-width: 30rem;
+  @media (max-width: ${props => props.theme.screenSize.mobileL}) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+`;
+
+const SectionProducts = styled.div`
+  padding: 4rem 2rem;
 `;
 
 const SectionRender = styled.div`
@@ -33,12 +44,27 @@ const SectionRender = styled.div`
   }
 `;
 
+const SortButton = styled.button`
+  margin: 2rem 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  border: 2px solid ${props => props.theme.colors.black};
+  border-radius: 6px;
+  padding: 3px 5px;
+  cursor: pointer;
+  background: ${props => props.theme.colors.white};
+  &:hover {
+    background: ${props => props.theme.colors.primaryDark};
+    color: ${props => props.theme.colors.white};
+  }
+`;
+
 const ProductGrid = () => {
   const {
     store: { checkout },
   } = useContext(StoreContext);
 
-  const [selectedCollection, setSelectedCollection] = useState(null);
   const data = useStaticQuery(
     graphql`
       {
@@ -78,6 +104,10 @@ const ProductGrid = () => {
     `,
   );
 
+  const [selectedCollection, setSelectedCollection] = useState(null);
+
+  const [sortDesc, setSortDesc] = useState(false);
+
   return (
     <Grid>
       <SectionNav>
@@ -91,33 +121,54 @@ const ProductGrid = () => {
           collections={data.allShopifyCollection.nodes}
           setSelectedCollection={setSelectedCollection}
         />
+        <SortButton onClick={e => setSortDesc(prev => !prev)}>
+          {' '}
+          {sortDesc ? 'Sort By Highest Price' : 'Sort By Lowest Price'}{' '}
+        </SortButton>
       </SectionNav>
 
-      {selectedCollection ? (
-        <SectionRender>
-          {data.allShopifyProduct.nodes
-            .filter(product =>
-              product.tags.includes(selectedCollection.toLowerCase()),
-            )
-            .map(product => (
-              <EachProductStyle2
-                key={product.id}
-                product={product}
-                checkout={checkout}
-              />
-            ))}
-        </SectionRender>
-      ) : (
-        <SectionRender>
-          {data.allShopifyProduct.nodes.map(product => (
-            <EachProductStyle2
-              key={product.id}
-              product={product}
-              checkout={checkout}
-            />
-          ))}
-        </SectionRender>
-      )}
+      <SectionProducts>
+        {/* <SectionProductsHeader>
+          <Header>Welcome to Dress Code</Header>
+          <Blurb>Active Shoppers {getRandomInt(2, 10)}</Blurb>
+        </SectionProductsHeader> */}
+        {selectedCollection ? (
+          <SectionRender>
+            {data.allShopifyProduct.nodes
+              .filter(product =>
+                product.tags.includes(selectedCollection.toLowerCase()),
+              )
+              .sort((a, b) =>
+                sortDesc
+                  ? a.variants[0].price - b.variants[0].price
+                  : b.variants[0].price - a.variants[0].price,
+              )
+              .map(product => (
+                <EachProductStyle2
+                  key={product.id}
+                  product={product}
+                  checkout={checkout}
+                />
+              ))}
+          </SectionRender>
+        ) : (
+          <SectionRender>
+            {data.allShopifyProduct.nodes
+              .sort((a, b) =>
+                sortDesc
+                  ? a.variants[0].price - b.variants[0].price
+                  : b.variants[0].price - a.variants[0].price,
+              )
+              .map(product => (
+                <EachProductStyle2
+                  key={product.id}
+                  product={product}
+                  checkout={checkout}
+                />
+              ))}
+          </SectionRender>
+        )}
+      </SectionProducts>
     </Grid>
   );
 };
