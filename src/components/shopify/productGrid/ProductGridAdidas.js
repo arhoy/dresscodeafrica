@@ -13,12 +13,11 @@ const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   padding: 4rem 2rem;
-  background: ${props => props.theme.colors.white};
 `;
 
 const CustomSlider = styled(Slider)``;
 
-const ProductGridZara = () => {
+const ProductNikeGrid = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -54,27 +53,26 @@ const ProductGridZara = () => {
   const data = useStaticQuery(
     graphql`
       {
-        allShopifyCollection(filter: { handle: { eq: "zara" } }) {
-          nodes {
-            products {
+        shopifyCollection(products: { elemMatch: { tags: { eq: "adidas" } } }) {
+          products {
+            id
+            title
+            handle
+            createdAt
+            images {
               id
-              title
-              handle
-              createdAt
-              images {
-                id
-                originalSrc
-                localFile {
-                  childImageSharp {
-                    fluid(maxWidth: 910) {
-                      src
-                    }
+              originalSrc
+              localFile {
+                childImageSharp {
+                  fluid(maxWidth: 910) {
+                    src
                   }
                 }
               }
-              variants {
-                price
-              }
+            }
+            variants {
+              price
+              compareAtPrice
             }
           }
         }
@@ -84,10 +82,9 @@ const ProductGridZara = () => {
 
   return (
     <Container>
-      <H2Centered>Zara Products</H2Centered>
-
+      <H2Centered> Trending Adidas Products</H2Centered>
       <CustomSlider {...settings}>
-        {data.allShopifyCollection.nodes[0].products.map(product => (
+        {data.shopifyCollection.products.map(product => (
           <EachProductStyle1
             key={product.id}
             product={product}
@@ -99,4 +96,4 @@ const ProductGridZara = () => {
   );
 };
 
-export default ProductGridZara;
+export default ProductNikeGrid;

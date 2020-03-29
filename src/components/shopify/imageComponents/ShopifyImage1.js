@@ -16,7 +16,6 @@ const Image = styled.img`
 `;
 
 export const ShopifyImage1 = ({ images, imageId }) => {
-  console.log('Image ', images);
   const [modal, setModal] = useState(false);
 
   // if (images.length === 0) {

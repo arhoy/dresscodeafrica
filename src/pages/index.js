@@ -55,7 +55,8 @@ const HerosContainer = styled.div`
 
 const HeroBackgroundImage = styled(BackgroundImage)`
   width: 100%;
-  height: 88vh;
+  height: 80vh;
+  background-attachment: fixed;
   background-image: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.9),

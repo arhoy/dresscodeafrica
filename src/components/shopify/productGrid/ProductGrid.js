@@ -104,7 +104,7 @@ const ProductGrid = () => {
     `,
   );
 
-  const [selectedCollection, setSelectedCollection] = useState(null);
+  const [selectedCollection, setSelectedCollection] = useState('');
 
   const [sortDesc, setSortDesc] = useState(false);
 

@@ -18,7 +18,7 @@ const contact = () => {
           <H1>Contact Page</H1>
           <P> You can reach me at (587) 772 5536 or fill out the form below</P>
 
-          <NetlifyFormV2 background="#EAEDED" color="black" />
+          <NetlifyFormV2 background="transparent" color="black" />
         </Container800>
       </Section>
     </Layout>
